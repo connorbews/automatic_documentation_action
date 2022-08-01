@@ -1,0 +1,9 @@
+name: 'Update Website'
+description: 'This action sends a request to the website that pulls the latest version of FTC-Game from github and updates what the website looks like'
+
+outputs:
+  statusmessage:
+    description: 'whether or not the action failed'
+runs:
+  using: 'node16'
+  main: 'index.js'
